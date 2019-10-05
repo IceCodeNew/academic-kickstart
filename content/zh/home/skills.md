@@ -15,21 +15,27 @@ subtitle = ""
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
 
 [[feature]]
-  icon = "r-project"
+  icon = "dev"
   icon_pack = "fab"
-  name = "R"
-  description = "90%"
+  name = "DevOps（熬夜力）"
+  description = "0.000001%"
   
 [[feature]]
-  icon = "chart-line"
+  icon = "book"
   icon_pack = "fas"
-  name = "Statistics"
-  description = "100%"  
+  name = "Academic（胡扯力）"
+  description = "0.000001%"  
   
 [[feature]]
-  icon = "camera-retro"
+  icon = "gamepad"
   icon_pack = "fas"
-  name = "Photography"
-  description = "10%"
+  name = "Laziness（盐分）"
+  description = "9.999998%"
+  
+[[feature]]
+  icon = "battery-half"
+  icon_pack = "fas"
+  name = "Arrogance（水分）"
+  description = "50%"
 
 +++
