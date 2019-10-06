@@ -21,7 +21,7 @@
     weight = 10
 
   [[zh.menu.main]]
-    name = "技能"
+    name = "技能树"
     url = "#skills"
     weight = 20
 

@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position
-role: "北京大学渣"
+role: ""
 
 # Organizations/Affiliations
 organizations:
@@ -61,5 +61,5 @@ user_groups: []
 # - Visitors
 ---
 
-囍囍更健康！
+北京大学渣
 
