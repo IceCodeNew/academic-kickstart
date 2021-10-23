@@ -9,25 +9,29 @@ headless: true
 # Order that this section appears on the page.
 weight: 30
 
-title: Skills
-subtitle:
+title: 技能树
+subtitle: Skills
 
 # Showcase personal skills or business features.
 # - Add/remove as many `feature` blocks below as you like.
 # - For available icons, see: https://wowchemy.com/docs/page-builder/#icons
 feature:
-- description: 90%
-  icon: r-project
+- description: 0.000001%
+  icon: dev
   icon_pack: fab
-  name: R
-- description: 100%
-  icon: chart-line
+  name: DevOps（熬夜力）
+- description: 0.000001%
+  icon: book
   icon_pack: fas
-  name: Statistics
-- description: 10%
-  icon: camera-retro
+  name: Academic（胡扯力）
+- description: 9.999998%
+  icon: gamepad
   icon_pack: fas
-  name: Photography
+  name: Laziness（盐分）
+- description: 50%
+  icon: battery-half
+  icon_pack: fas
+  name: Arrogance（水分）
 
 # Uncomment to use emoji icons.
 #- icon: ":smile:"
