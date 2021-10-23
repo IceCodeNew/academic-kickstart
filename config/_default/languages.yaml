@@ -3,20 +3,35 @@
 #   Documentation: https://wowchemy.com/docs/guide/language/
 
 # Default language
-en:
-  languageCode: en-us
-  # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
-  #contentDir: content/en
+# en:
+#   languageCode: en-us
+#   # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
+#   #contentDir: content/en
 
 # Uncomment the lines below to configure your website in a second language.
-#zh:
-#  languageCode: zh-Hans
-#  contentDir: content/zh
-#  title: Chinese website title...
-#  params:
-#    description: Site description in Chinese...
-#  menu:
-#    main:
-#      - name: 传
-#        url: '#about'
-#        weight: 1
+zh:
+  languageCode: zh-Hans
+  contentDir: content/zh
+  title: 冰码妞的小小窝
+  params:
+    description: 这里是冰码妞的个人博客，欢迎造访！
+  menu:
+    main:
+      - name: 关于我
+        url: '#about'
+        weight: 10
+      - name: 技能树
+        url: '#skills'
+        weight: 20
+      - name: 经历
+        url: '#experience'
+        weight: 30
+      - name: 热点文章
+        url: '#featured'
+        weight: 40
+      - name: 最近文章
+        url: '#posts'
+        weight: 50
+      - name: 标签
+        url: '#tags'
+        weight: 60
