@@ -3,18 +3,18 @@
 # Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
-title: Academic # Website name
-baseurl: 'https://example.com/' # Website URL
-copyright: '' # Footer text, e.g. '© {year} Me'
+title: 冰码妞的小小窝 # Website name
+baseurl: 'https://blog.icecode.xyz/' # Website URL
+copyright: '© {year}' # Footer text, e.g. '© {year} Me'
 
 ############################
 ## LANGUAGE
 ############################
 
-defaultContentLanguage: en
-hasCJKLanguage: false
-defaultContentLanguageInSubdir: false
-removePathAccents: true
+defaultContentLanguage: zh
+hasCJKLanguage: true
+defaultContentLanguageInSubdir: true
+removePathAccents: true  # Workaround for https://github.com/gohugoio/hugo/issues/5687
 
 ############################
 ## MODULES
@@ -29,9 +29,9 @@ module:
 ## ADVANCED
 ############################
 
-enableGitInfo: false
+enableGitInfo: true  # Get last modified date for content from Git?
 summaryLength: 30
-paginate: 10
+paginate: 10  # Number of items per page in paginated lists.
 enableEmoji: true
 enableRobotsTXT: true
 footnotereturnlinkcontents: <sup>^</sup>
@@ -47,7 +47,7 @@ outputs:
   section: [HTML, RSS]
 imaging:
   resampleFilter: lanczos
-  quality: 75
+  quality: 90
   anchor: smart
 timeout: 600000
 taxonomies:
