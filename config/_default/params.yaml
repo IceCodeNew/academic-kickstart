@@ -149,18 +149,20 @@ breadcrumb:
   page_types:
     book: true
 comments:
-  provider: 'commento'
+  provider: 'utterances'
   commentable:
     post: true
-    book: true
-    project: true
-    publication: true
-    event: true
+    book: false
+    project: false
+    publication: false
+    event: false
   disqus:
     shortname: ''
     show_count: true
   commento:
-    url: 'http://localhost:8080'
+    url: ''
+  utterances:
+    url: 'https://utteranc.es'
 search:
   provider: wowchemy
   wowchemy:
