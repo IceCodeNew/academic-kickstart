@@ -1,0 +1,11 @@
+# Font style metadata
+name = "my_font_set"
+
+# Optional Google font URL
+google_fonts = "family=B612+Mono:wght@400;700&family=Noto+Sans+SC:wght@400;700"
+
+# Font families
+heading_font = "B612 Mono"
+body_font = "B612 Mono"
+nav_font = "B612 Mono"
+mono_font = "B612 Mono"

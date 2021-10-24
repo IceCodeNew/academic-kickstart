@@ -7,7 +7,7 @@
 
 theme: forest
 day_night: true  # Enable users to switch between day and night mode?
-font: 'Cyberpunk'  # Override the theme's font set (optional).
+font: 'my_font_set'  # Override the theme's font set (optional).
 font_size: L
 
 # SEO
@@ -97,7 +97,7 @@ highlight_languages:
   - sql
   - xml
   - yaml
-highlight_style: dracula
+highlight_style: solarized-dark
 math: false
 diagram: false
 privacy_pack: false
