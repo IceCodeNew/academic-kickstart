@@ -26,12 +26,18 @@ zh:
       - name: 经历
         url: '#experience'
         weight: 30
+      - name: 专业技能
+        url: '#accomplishments'
+        weight: 40
       - name: 热点文章
         url: '#featured'
-        weight: 40
+        weight: 50
       - name: 最近文章
         url: '#posts'
-        weight: 50
+        weight: 60
+      - name: 友情链接
+        url: '#linkexchanges'
+        weight: 70
       - name: 标签
         url: '#tags'
-        weight: 60
+        weight: 80

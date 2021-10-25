@@ -9,8 +9,8 @@ headless: true
 # Order that this section appears on the page.
 weight: 55
 
-title: Featured Posts
-subtitle: ""
+title: 热点文章
+subtitle: "Featured Posts"
 
 content:
   # Page type to display. E.g. post, talk, publication...
