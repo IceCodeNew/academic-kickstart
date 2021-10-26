@@ -21,3 +21,5 @@ design:
 - [咸鱼的小鱼塘](https://blog.zjyl1994.com/)
 - [immortal君 的博客](http://immmortal.tk/)
 - [Peter 的博客](https://yangxiamao.github.io/)
+- [Rex Zeng 的博客](https://blog.rexskz.info/)
+- [Quantum Ghost 君的博客](https://blog.quantumghost.dev)
