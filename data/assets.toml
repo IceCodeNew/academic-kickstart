@@ -58,11 +58,11 @@
   url = "https://cdn.jsdelivr.net/gh/bryanbraun/anchorjs@%s/anchor.min.js"
 [js.mermaid]
   version = "8.8.4"
-  sri = "sha512-as1BF4+iHZ3BVO6LLDQ7zrbvTXM+c/1iZ1qII/c3c4L8Rn5tHLpFUtpaEtBNS92f+xGsCzsD7b62XP3XYap6oA=="
+  sri = "sha512-+TNmhaRJf3jyYHTpzEq/5I6b+aGyhzWb21mGdHAjxSGSYwxN9Grug3Y3B9qVxWfKKY8MscE/6mr9walWvFLFvQ=="
   url = "https://cdn.jsdelivr.net/gh/mermaid-js/mermaid@v%s/dist/mermaid.min.js"
 [js.cookieconsent]
   version = "3.1.1"
-  sri = "sha512-v+bo3zbHjL/Re6knDIaGDumwUbgllPuPNKCt9qFOFZbSqdzcfraFcQHhUCr/b/UVo26LpsgNoye8EYMWJKXa6g=="
+  sri = "sha512-yXXqOFjdjHNH1GND+1EO0jbvvebABpzGKD66djnUfiKlYME5HGMUJHoCaeE4D5PTG2YsSJf6dwqyUUvQvS0vaA=="
   url = "https://cdn.jsdelivr.net/gh/osano/cookieconsent@%s/build/cookieconsent.min.js"
 [js.plotly]
   version = "1.55.2"
@@ -73,7 +73,7 @@
 
 [css.academicons]
   version = "1.9.1"
-  sri = "sha512-b1ASx0WHgVFL5ZQhTgiPWX+68KjS38Jk87jg7pe+qC7q9YkEtFq0z7xCglv7qGIs/68d3mAp+StfC8WKC5SSAg=="
+  sri = "sha512-W0xM4mr6dEP9nREo7Z9z+9X70wytKvMGeDsj7ps2+xg5QPrEBXC8tAW1IFnzjR6eoJ90JmCnFzerQJTLzIEHjA=="
   url = "https://cdn.jsdelivr.net/npm/academicons@%s/css/academicons.min.css"
 [css.leaflet]
   version = "1.7.1"
