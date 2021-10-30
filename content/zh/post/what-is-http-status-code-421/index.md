@@ -1,12 +1,10 @@
 ---
-title: 一只笨妞对他的 HAProxy 配置做了一点优化，这是 SNI 路由发生的变化
-subtitle: How I messed up with SNI routing by issuing a wildcard tls cert instead of the per-site certs bundle.
+
+title: "一只笨妞对他的 HAProxy 配置做了一点优化，这是 SNI 路由发生的变化"
+subtitle: "How I messed up with SNI routing by issuing a wildcard tls cert instead of the per-site certs bundle."
 
 # Summary for listings and search engines
-summary: HTTP/2 的连接复用策略更为激进，当你观察到连接的 URI 匹配不上实际被路由往的后端时，可以注意下这个坑哦。
-
-# Link this post with a project
-projects: []
+summary: "HTTP/2 的连接复用策略更为激进，当你观察到连接的 URI 匹配不上实际被路由往的后端时，可以注意下这个坑哦。"
 
 # Date published
 date: "2021-10-24T03:40:00Z"
@@ -18,14 +16,15 @@ lastmod: "2021-10-24T14:25:00Z"
 draft: false
 
 # Show this page in the Featured widget?
-featured: true
+featured: false
 
 math: true
 
 toc: true
 
 # Featured image
-# Place an image named `featured.jpg/png` in this page's folder and customize its options here.
+# To use, add an image named `featured.jpg/png` to your page's folder.
+# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
 image:
   caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/jH5nGtqr7KI)'
   focal_point: "Smart"
@@ -33,21 +32,32 @@ image:
   preview_only: false
   alt_text: Bird's eye view of the historic Chatham County courthouse located in downtown Pittsboro, North Carolina.
 
+# Projects (optional).
+#   Associate this post with one or more of your projects.
+#   Simply enter your project's folder or file name without extension.
+#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
+#   Otherwise, set `projects = []`.
+projects: []
+
 authors:
 - admin
 
+# 我的定义：tags 的提取按内文关键词的感觉走，反映实际内容主题。
 tags:
+- "Coalescing"
 - "HAProxy"
 - "HTTP/2"
-- "http status code"
-- "wildcard cert"
+- "Wildcard Cert"
 
 categories:
 - "Computer Network"
 - "HAProxy"
+- "中文"
 - "坑"
----
+- "折腾"
+- "计算机网络"
 
+---
 
 {{< toc >}}
 
