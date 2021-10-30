@@ -10,7 +10,7 @@ summary: "—「为什么这么折腾呢？Caddy 几句话就能解决的事情�
 date: "2021-10-30T08:00:00Z"
 
 # Date updated
-lastmod: "2021-10-30T08:00:00Z"
+lastmod: "2021-10-30T14:35:00Z"
 
 # Is this an unpublished draft?
 draft: false
@@ -73,7 +73,7 @@ $\quad$$\quad$至于我选择 HAProxy 的理由？~~当然是因为 HAProxy 就�
 
 1. 在反代诸如 `archive.ubuntu.com` 等站点时，要注意上游服务器会检测到发生了 HTTPS 降级，并拒绝服务（所以你们什么时候提供 HTTPS 服务啊 \*\*\*)。  
 ——解决方案是在 HAProxy 配置里特判 Host，如果是反代域名则不做 301 跳转，也不发送 `Strict-Transport-Security` 头（话说回来这个问题可能也就对我这种安全偏执狂是问题了 hhh。有好多站点上根本不做 HTTPS 重定向的，甚至还拿同样的域名分出 HTTP 和 HTTPS 两个站来提供并不相似的内容——这里点名批评鸟哥）。
-2. **提前评估服务被滥用的可能及影响**。一些必要且部署和后继使用时都不太麻烦的措施其实只要肯稍微停下来花点时间就能想到。认真对待这件事真的很重要——举例来说 [`the SICK BRIC country`](https://www.ted.com/talks/michael_anti_behind_the_great_firewall_of_china) 因为推行 IPv6，政府网站大量采用 IPv6 代理来完成推进工作。但是因为代理服务完全敞开没有做过滤，变成了黑帽 SEO 的天堂[^2]。类似这样的案例还有很多，其影响想必不用我再费笔墨去说明吧。  
+2. **提前评估服务被滥用的可能及影响**。一些必要且部署和后继使用时都不太麻烦的措施其实只要肯稍微停下来花点时间就能想到。认真对待这件事真的很重要——举例来说 [`the SICK BRIC country`](https://www.ted.com/talks/michael_anti_behind_the_great_firewall_of_china) 因为推行 IPv6，政府网站大量采用 IPv6 代理来完成推进工作。但是因为代理服务完全敞开没有做过滤，变成了黑帽 SEO 的天堂[^2]。类似这样的案例还有很多，其影响想必不用我再费笔墨去说明吧（什么是 [security by obscurity](https://en.wikipedia.org/wiki/Security_through_obscurity) 啊.战术后仰.webp）。  
 _<small>我有一个绝妙的解决方案，可惜这里写不下了——看到这里可别急着打我，后文会附上的！</small>_
 3. 替换响应体中的 `Location` Header，使其指向反代域名。举个例子来说，你通过反代愉快地访问到了嗖嗖快的 GayHub 站，但是当你点击下载链接时却发现是通过慢吞吞的 GitHub 站在下载文件……这可不太妙。不过真正想要实现功能完全的反向代理，光修改响应头其实是不足够的（我的用例毕竟是以加速下载为主，恰好就只需要修改上游发来的重定向请求就够了）。  
 ——解决方案是在后端使用 [`http-response replace-header`](https://cbonte.github.io/haproxy-dconv/2.4/configuration.html#4.2-http-response%20replace-header) 方法，通过正则表达式匹配模式并替换。在我后面给出答案之前（这个答案可是花了我一个小时才调整到完美），请先试着思考如下两个问题：`Location` Header 中可能出现 URL 的哪些部分？HAProxy 的正则匹配引擎支持哪些模式的匹配？  
