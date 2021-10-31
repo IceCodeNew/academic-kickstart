@@ -126,12 +126,22 @@ frontend fe_https
 ```
 {{< /spoiler >}}
 
+{{< spoiler text="4. 除了对反代域名及其解析得到的 IP 进行校验外，你还有其他加固服务的思路吗？" >}}
+> <small>举例来说，可以限制访客的 GeoIP 为仅限中国（甚至可以限制为仅开发机的 IP，如果条件允许的话）。实现思路可以参考以下几篇博客：
+- https://www.haproxy.com/blog/use-geoip-database-within-haproxy/ 
+- https://www.haproxy.com/blog/bot-protection-with-haproxy/ </small>
+{{< /spoiler >}}
+
+---
+
 {{< spoiler text="对第 3 个问题的解决方案：" >}}
 ```
 backend rp-mirror-http-be
   http-response replace-header    Location ^((?:https?:\/\/)?(?:[^@\/\n]+@)?[^\/\n:]+)(.*) \1.reverse.proxy.tld\2
 ```
 {{< /spoiler >}}
+
+---
 
 {{< spoiler text="对第 4 个问题的解决方案：" >}}
 ```
