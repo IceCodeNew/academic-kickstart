@@ -41,3 +41,10 @@ design:
 - [Rikumi 君的博客](https://rikumi.notion.site/)
 - [约伊兹的萌狼乡手札](https://blog.yoitsu.moe/)
 - [萨摩の山野日志](https://i-meto.com/)
+- [Brecht 君的博客](https://blog.brecht.im/)
+- [Benny 小土豆](https://dmesg.app/)
+
+---
+
+- [北京大学数字人文研究中心](http://dhlab.pku.edu.cn/)
+- [NTT OSS Innovation Center](https://medium.com/nttlabs/archive)
