@@ -7,9 +7,11 @@ div.article-container {
 .featured-image {
   width: 100% !important;
 }
-.toc-inpage {
-  position: fixed !important;
-  right: 1% !important;
-  bottom: 8% !important;
-  width: 16% !important;
+@media screen and (min-width: 720px) {
+  .toc-inpage {
+    position: fixed !important;
+    right: 1% !important;
+    bottom: 8% !important;
+    width: 16% !important;
+  }
 }
