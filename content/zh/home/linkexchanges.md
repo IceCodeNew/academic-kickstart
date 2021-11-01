@@ -8,7 +8,7 @@ subtitle: Link Exchanges
 weight: 70  # section position on page
 design:
   # Choose how many columns the section has. Valid values: 1 or 2.
-  columns: '1'
+  columns: '2'
 ---
 
 以下友情链接按时间先后排列：  
@@ -16,7 +16,7 @@ design:
 
 - [苏卡卡大福狸的博客](https://blog.skk.moe/)
 - [BYVoid 大佬的博客](https://byvoid.com/zht/blog/)
-- [A blog mainly on graduate mathematics.](https://desvl.xyz/)
+- [Desvl's blog](https://desvl.xyz/)
 - [白泠的垃圾桶](https://kaf.moe/)
 - [咸鱼的小鱼塘](https://blog.zjyl1994.com/)
 - [immortal 君的博客](http://immmortal.tk/)
@@ -43,6 +43,10 @@ design:
 - [萨摩の山野日志](https://i-meto.com/)
 - [Brecht 君的博客](https://blog.brecht.im/)
 - [Benny 小土豆](https://dmesg.app/)
+- [techmoe 君的博客](https://tty.moe/blog)
+- [Manjusaka 君的博客](https://manjusaka.itscoder.com/)
+- [laike9m's blog](https://laike9m.com/)
+- [卡瓦邦噶！](https://www.kawabangga.com/)
 
 ---
 
