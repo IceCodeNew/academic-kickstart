@@ -47,6 +47,9 @@ design:
 - [Manjusaka 君的博客](https://manjusaka.itscoder.com/)
 - [laike9m's blog](https://laike9m.com/)
 - [卡瓦邦噶！](https://www.kawabangga.com/)
+- [Rumah Sakit Chisho Negara（国家池沼病院）](https://pleviumtan.github.io/)
+- [Phoenix Rain](https://blog.lhp-pku.top/)
+- [Shell Xu's Home](https://blog.shell909090.org/)
 
 ---
 
