@@ -1,17 +1,25 @@
 div.article-style:not(h1,h2,h3,h4,h5,h6) {
   font-family: "AR UDJingxihei GB18030 Demibold" !important;
 }
-div.article-container {
-  width: 65% !important;
-}
-.featured-image {
-  width: 100% !important;
-}
 @media screen and (min-width: 720px) {
+  div.article-container {
+    width: 75% !important;
+  }
+  .featured-image {
+    width: 100% !important;
+  }
   .toc-inpage {
     position: fixed !important;
     right: 1% !important;
     bottom: 8% !important;
     width: 16% !important;
+  }
+}
+@media screen and (max-width: 720px) {
+  div.article-container {
+    width: 90% !important;
+  }
+  .featured-image {
+    width: 100% !important;
   }
 }
