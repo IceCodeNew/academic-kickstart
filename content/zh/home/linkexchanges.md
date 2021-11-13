@@ -50,8 +50,17 @@ design:
 - [Rumah Sakit Chisho Negara（国家池沼病院）](https://pleviumtan.github.io/)
 - [Phoenix Rain](https://blog.lhp-pku.top/)
 - [Shell Xu's Home](https://blog.shell909090.org/)
+- [面向信仰编程](https://draveness.me/)
+- [官大為老師的部落格](https://wiwikuan.com/)
+- [林三土老师的博客](https://dikaioslin.blogspot.com/)
+- [流水沉微](https://shuxiao.wang/)
+- [Practical Networking](https://www.practicalnetworking.net/)
+- [数字移民](https://blog.shuziyimin.org/)
+- [猫总的博客](https://catman.app/)
 
 ---
 
 - [北京大学数字人文研究中心](http://dhlab.pku.edu.cn/)
 - [NTT OSS Innovation Center](https://medium.com/nttlabs/archive)
+- [China Biographical Database Project (CBDB)](https://projects.iq.harvard.edu/cbdb)
+- [中研院史語所 Institute of History and Philology](https://www1.ihp.sinica.edu.tw/)
