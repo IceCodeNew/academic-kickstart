@@ -57,6 +57,7 @@ design:
 - [Practical Networking](https://www.practicalnetworking.net/)
 - [数字移民](https://blog.shuziyimin.org/)
 - [猫总的博客](https://catman.app/)
+- [王宏甦君的博客](https://www.oopus.info/blog/)
 
 ---
 
@@ -64,3 +65,5 @@ design:
 - [NTT OSS Innovation Center](https://medium.com/nttlabs/archive)
 - [China Biographical Database Project (CBDB)](https://projects.iq.harvard.edu/cbdb)
 - [中研院史語所 Institute of History and Philology](https://www1.ihp.sinica.edu.tw/)
+- [哈佛大學費正清研究中心 Fairbank Center for Chinese Studies](https://fairbank.fas.harvard.edu/)
+- [北京大學中國古代史研究中心](https://zggds.pku.edu.cn/)
