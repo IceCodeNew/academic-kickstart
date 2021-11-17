@@ -58,6 +58,7 @@ design:
 - [数字移民](https://blog.shuziyimin.org/)
 - [猫总的博客](https://catman.app/)
 - [王宏甦君的博客](https://www.oopus.info/blog/)
+- [苏洋博客](https://soulteary.com/)
 
 ---
 
