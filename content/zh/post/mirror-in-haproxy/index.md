@@ -16,7 +16,7 @@ lastmod: "2021-10-30T14:35:00Z"
 draft: false
 
 # Show this page in the Featured widget?
-featured: true
+featured: false
 
 math: true
 
