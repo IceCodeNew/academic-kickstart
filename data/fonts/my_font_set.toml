@@ -2,10 +2,10 @@
 name = "my_font_set"
 
 # Optional Google font URL
-google_fonts = "family=B612+Mono:wght@400;700&family=Noto+Sans+SC:wght@400;700"
+google_fonts = "family=IBM+Plex+Mono&family=B612:wght@400;700&family=Jura:wght@400;700&family=Noto+Sans+SC:wght@400;700"
 
 # Font families
-heading_font = "B612 Mono"
-body_font = "B612 Mono"
-nav_font = "B612 Mono"
-mono_font = "B612 Mono"
+heading_font = "Jura"
+body_font = "B612"
+nav_font = "Jura"
+mono_font = "IBM Plex Mono"
