@@ -59,6 +59,8 @@ design:
 - [猫总的博客](https://catman.app/)
 - [王宏甦君的博客](https://www.oopus.info/blog/)
 - [苏洋博客](https://soulteary.com/)
+- [比特客栈的文艺复兴](https://bitinn.net/)
+- [白翼的服務器運維博客](https://holywhite.com/)
 
 ---
 
