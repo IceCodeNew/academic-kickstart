@@ -70,3 +70,5 @@ design:
 - [中研院史語所 Institute of History and Philology](https://www1.ihp.sinica.edu.tw/)
 - [哈佛大學費正清研究中心 Fairbank Center for Chinese Studies](https://fairbank.fas.harvard.edu/)
 - [北京大學中國古代史研究中心](https://zggds.pku.edu.cn/)
+- [WallessPKU](https://blog.wallesspku.space/)
+- [The Type (Type is Beautiful)](https://www.thetype.com/zh-hant/)
