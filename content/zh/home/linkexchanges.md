@@ -61,6 +61,9 @@ design:
 - [苏洋博客](https://soulteary.com/)
 - [比特客栈的文艺复兴](https://bitinn.net/)
 - [白翼的服務器運維博客](https://holywhite.com/)
+- [The Random Security Guy](https://randomsecurity.dev/)
+- [Info Toast](https://infotoast.org/)
+- [Koizumi's Blog](https://blog.minamigo.moe/)
 
 ---
 
@@ -72,3 +75,4 @@ design:
 - [北京大學中國古代史研究中心](https://zggds.pku.edu.cn/)
 - [WallessPKU](https://blog.wallesspku.space/)
 - [The Type (Type is Beautiful)](https://www.thetype.com/zh-hant/)
+- [The Cloudflare Blog](https://blog.cloudflare.com/)
