@@ -64,6 +64,7 @@ design:
 - [The Random Security Guy](https://randomsecurity.dev/)
 - [Info Toast](https://infotoast.org/)
 - [Koizumi's Blog](https://blog.minamigo.moe/)
+- [HuoJu's BLOG](https://jhuo.ca/)
 
 ---
 
