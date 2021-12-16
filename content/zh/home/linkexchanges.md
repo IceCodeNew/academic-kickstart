@@ -65,6 +65,7 @@ design:
 - [Info Toast](https://infotoast.org/)
 - [Koizumi's Blog](https://blog.minamigo.moe/)
 - [HuoJu's BLOG](https://jhuo.ca/)
+- [Kyokuheishin's Blog](https://blog.kyokuheishin.xyz/)
 
 ---
 
@@ -77,3 +78,4 @@ design:
 - [WallessPKU](https://blog.wallesspku.space/)
 - [The Type (Type is Beautiful)](https://www.thetype.com/zh-hant/)
 - [The Cloudflare Blog](https://blog.cloudflare.com/)
+- [Project Zero](https://googleprojectzero.blogspot.com/)
