@@ -79,3 +79,4 @@ design:
 - [The Type (Type is Beautiful)](https://www.thetype.com/zh-hant/)
 - [The Cloudflare Blog](https://blog.cloudflare.com/)
 - [Project Zero](https://googleprojectzero.blogspot.com/)
+- [The tailscale Blog](https://tailscale.com/blog/)
