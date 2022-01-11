@@ -69,3 +69,8 @@ related:
       weight: 70
 security:
   _merge: deep
+params:
+  locale:
+    date_format: '2006-01-02, Monday'
+    time_format: '15:04-07:00'
+    address_format: zh
