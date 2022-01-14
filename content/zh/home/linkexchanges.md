@@ -66,6 +66,7 @@ design:
 - [Koizumi's Blog](https://blog.minamigo.moe/)
 - [HuoJu's BLOG](https://jhuo.ca/)
 - [Kyokuheishin's Blog](https://blog.kyokuheishin.xyz/)
+- [Mayo's Blog](https://shoujo.ink/)
 
 ---
 
