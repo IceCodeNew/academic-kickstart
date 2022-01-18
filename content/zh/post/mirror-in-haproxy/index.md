@@ -4,7 +4,7 @@ title: "巧用 HAProxy 配置反代搭建软件镜像"
 subtitle: "Set up mirror service by deploying reverse proxy in HAProxy"
 
 # Summary for listings and search engines
-summary: "—「为什么这么折腾呢？Caddy 几句话就能解决的事情」 —「因为 HAProxy（山）就在那里」"
+summary: "—<q>为什么这么折腾呢？Caddy 几句话就能解决的事情</q> —<q>因为 HAProxy（山）就在那里</q>"
 
 # Date published
 date: "2021-10-30T08:00:00Z"
